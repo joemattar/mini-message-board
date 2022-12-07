@@ -1,0 +1,108 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+  margin: 2rem;
+
+  width: 100vw - 6rem;
+}
+
+a {
+  color: #00B7FF;
+
+  text-decoration: none;
+
+  width: 100%;
+}
+
+button {
+  font-family: inherit;
+
+  width: 100%;
+}
+
+hr {
+  width: 100%;
+}
+
+input {
+  font-family: inherit;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  font-family: inherit;
+}
+
+.errors {
+  color: red;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.message-container {
+  background-color: lightgreen;
+
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  padding: 0.5rem;
+
+  width: min(100%, 40rem);
+}
+
+.message-user {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.message-text {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.message-timestamp {
+  font-size: 0.85rem;
+
+  text-align: right;
+}
+
+.new-message-a {
+  width: fit-content;
+}
+
+.new-message-button {
+  font-weight: 900;
+
+  width: fit-content;
+}
+
+.new-message-container {
+  width: min(100%, 40rem);
+}
+
+.new-message-form {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.titles {
+  text-align: center;
+}

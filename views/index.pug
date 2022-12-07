@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .titles
+    p.index-title= title
+    p.index-welcome Welcome to #{title}
+  a.new-message-a(href="/new")
+    button.new-message-button NEW MESSAGE
+  .messages
+    each message in messages
+      .message-container
+        p.message-user #{message.user}:
+        p.message-text=message.text
+        p.message-timestamp=message.timestamp_formatted
