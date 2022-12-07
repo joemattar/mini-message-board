@@ -21,7 +21,7 @@ a {
 
 button {
   font-family: inherit;
-  font-size: 1.5rem;
+  font-size: 2rem;
 
   width: 100%;
 }
@@ -32,7 +32,7 @@ hr {
 
 input {
   font-family: inherit;
-  font-size: 1.25rem;
+  font-size: 2rem;
 }
 
 p {
@@ -42,7 +42,7 @@ p {
 
 textarea {
   font-family: inherit;
-  font-size: 1.25rem;
+  font-size: 2rem;
 }
 
 .errors {
@@ -94,19 +94,23 @@ textarea {
   font-size: 1.5rem;
   font-weight: 900;
 
-  padding: 0.25rem;
+  padding: 1rem;
 
   width: fit-content;
 }
 
 .new-message-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
   width: min(100%, 40rem);
 }
 
 .new-message-form {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .titles {
