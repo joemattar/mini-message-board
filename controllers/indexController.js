@@ -7,7 +7,6 @@ exports.messages_list = function (req, res, next) {
       if (err) {
         return next(err);
       }
-      console.log("trigger");
       //Successful, so render
       res.render("index", {
         title: "Mini Messageboard",

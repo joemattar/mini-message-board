@@ -25,8 +25,6 @@ exports.message_create_post = [
       timestamp: new Date(),
     });
 
-    console.log(message);
-
     if (!errors.isEmpty()) {
       // There are errors. Render the form again with sanitized values/error messages.
       res.render("new_message_form", {

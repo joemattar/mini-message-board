@@ -4,7 +4,7 @@ body {
   align-items: center;
   gap: 2rem;
 
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 1rem "Lucida Grande", Helvetica, Arial, sans-serif;
 
   margin: 1rem;
 
@@ -21,9 +21,13 @@ a {
 
 button {
   font-family: inherit;
-  font-size: 2rem;
+  font-size: 1rem;
 
   width: 100%;
+}
+
+h2 {
+  margin: 0.5rem 0;
 }
 
 hr {
@@ -32,7 +36,7 @@ hr {
 
 input {
   font-family: inherit;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 p {
@@ -42,7 +46,7 @@ p {
 
 textarea {
   font-family: inherit;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .errors {
@@ -91,10 +95,10 @@ textarea {
 }
 
 .new-message-button {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 900;
 
-  padding: 1rem;
+  padding: 0.5rem;
 
   width: fit-content;
 }
@@ -114,7 +118,7 @@ textarea {
 }
 
 .titles {
-  font-size: 2rem;
+  font-size: 1.5rem;
 
   text-align: center;
 }

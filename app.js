@@ -17,8 +17,12 @@ app.use(compression()); // Compress all routes
 
 app.use(helmet());
 
+// Check if this conflict with Rails Env Variables...
+require("dotenv").config();
+
 // Set up mongoose connection
 const mongoose = require("mongoose");
+mongoose.set("strictQuery", false);
 const mongoDB = process.env.MONGODB_URI;
 mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
